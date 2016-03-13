@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+}
+
+
+/*descendant selector*/
+
+.lyft-info img {
+  width: 285px;
+}
+
+.home-page-jumbotron{
+    background-color:tomato;
+    position: relative;
+    top: 50px;
+    height: 750px;
+    background-image: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg");
+}

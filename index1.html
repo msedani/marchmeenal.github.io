@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+    .box {
+      height: 150px;
+      width: 150px;
+      background-color: blue;
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+    .orangeBox {
+      height: 150px;
+      width: 150px;
+      background-color: orange;
+      position: static;
+    }
+    .wrapper {
+      height: 200px;
+      width: 200px;
+      border: 2px solid black;
+      background-color: orange;
+      position: static;
+      top: 150px;
+      left: 150px;
+    }
+    .navigation {
+      height: 20px;
+      width: 100%;
+      background-color: red;
+      position:fixed;
+    }
+    .supremeWrapper {
+      height: 400px;
+      width: 400px;
+      background-color: lightgrey;
+      border: 2px dashed red;
+      position: static;
+      top: 50px;
+      left: 50px;
+    }
+    .zIndexExample {
+      height: 150px;
+      width: 150px;
+      background-color: pink;
+      z-index: -1;
+      position: absolute;
+    }
+  
+  </style>
+</head>
+<body>
+<!--   Four types of positioning:
+1. Static: every element has by default a positioning value of static
+2. Relative: means it's static but you can move it; it moves relative to where it would have been on the page flow; Relative from where it ALREADY WOULD HAVE BEEN on the pageflow
+3. Absolute: the position is based on the closest non-static parent element it is part of. Not based on anything else (no other elements affect it). This non-static parent could be the body.; ABSOLUTE POSITIONING to its PARENT on the pageflow
+4. Fixed: "sticky" like a navigation bar; it completely takes that element out of the pageflow
+
+
+Z-Index: is the z axis on our x-y-z coordinate plane
+All elements have a default z index of 0
+You could set z-index to 5 or whatever
+**NEEDS a position (i.e. position absolute)
+
+
+FLOAT:
+- Primarily created for text wrapping, not for creating layouts
+
+-->
+<!--   <div class="navigation">
+    here is my awesome navigation bar
+  </div> -->
+ <div class="supremeWrapper">
+  <div class="other">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate placeat hic distinctio earum ut quos, totam voluptas quia atque laboriosam neque ab, libero eius illo dolorum porro vero voluptatibus animi.</p>
+  </div>
+  <div class="wrapper">
+    <div class="box"></div>
+  </div>
+   <div class="zIndexExample">
+     hello there
+   </div>
+ </div>
+<!--   <div class="orangeBox"></div> -->
+<!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eum, consectetur placeat sit consequatur porro iusto dolor dignissimos laboriosam vel. Veniam ad temporibus esse quibusdam illo, dolorem cupiditate iusto in.</p> -->
+  
+</body>
+</html>
+
+
+
+
+
